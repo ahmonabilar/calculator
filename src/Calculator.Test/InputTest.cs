@@ -1,5 +1,4 @@
-﻿using Calculator.Services;
-using Calculator.Services.Interfaces;
+﻿using Calculator.Services.Interfaces;
 using NUnit.Framework;
 
 namespace Calculator.Test
