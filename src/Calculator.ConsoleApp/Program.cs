@@ -11,6 +11,9 @@ namespace Calculator.ConsoleApp
             var calculator = serviceProvider.GetService<ICalculator>();
             var input = serviceProvider.GetService<IInput>();
 
+            var app = new App(calculator, input);
+
+            app.Run();
         }
     }
 }
