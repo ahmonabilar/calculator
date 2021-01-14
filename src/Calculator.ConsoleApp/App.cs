@@ -7,12 +7,19 @@ namespace Calculator.ConsoleApp
     {
         private readonly ICalculator _calculatorService;
         private readonly IInput _inputService;
-
+        /// <summary>
+        /// Constructor that initializes calculator and input services
+        /// </summary>
+        /// <param name="calculatorService">A service that is used to execute the arithmetic operations</param>
+        /// <param name="inputService">A service that is used to accept user input from the console</param>
         public App(ICalculator calculatorService, IInput inputService)
         {
             _calculatorService = calculatorService;
             _inputService = inputService;
         }
+        /// <summary>
+        /// Used to run the console application, that accepts two integers and an operator and execute the arithmetic operation
+        /// </summary>
         public void Run()
         {
             char again;

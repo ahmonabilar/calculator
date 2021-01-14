@@ -3,6 +3,9 @@ using Calculator.Services.Interfaces;
 
 namespace Calculator.Services
 {
+    /// <summary>
+    /// A service that is used to accept user input from the console
+    /// </summary>
     public class InputService : IInput
     {
         /// <summary>

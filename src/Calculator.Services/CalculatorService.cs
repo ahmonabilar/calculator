@@ -2,6 +2,9 @@
 
 namespace Calculator.Services
 {
+    /// <summary>
+    /// A service that is used to execute the arithmetic operations
+    /// </summary>
     public class CalculatorService: ICalculator
     {
         /// <summary>
