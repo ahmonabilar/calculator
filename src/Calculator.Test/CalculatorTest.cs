@@ -4,7 +4,7 @@ using NUnit.Framework;
 
 namespace Calculator.Test
 {
-    public class Tests
+    public class CalculatorTest
     {
         private ICalculator _calculator;
 

@@ -10,7 +10,7 @@ namespace Calculator.Services
         /// </summary>
         /// <param name="prompt">An instruction for the user on what to input</param>
         /// <returns>An integer</returns>
-        public int PromptForInteger(string prompt)
+        public virtual int PromptForInteger(string prompt)
         {
             while (true)
             {
@@ -27,7 +27,7 @@ namespace Calculator.Services
         /// </summary>
         /// <param name="prompt">An instruction for the user on what to input</param>
         /// <returns>A character</returns>
-        public char PromptForOperator(string prompt)
+        public virtual char PromptForOperator(string prompt)
         {
             while (true)
             {
