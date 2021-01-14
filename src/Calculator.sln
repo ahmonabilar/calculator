@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.Services", "Calculator.Services\Calculator.Services.csproj", "{A2A31F47-01CD-47EB-B2C2-E80228434DBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Test", "Calculator.Test\Calculator.Test.csproj", "{F1492FEB-5FFD-408A-9435-EAC6B0565EEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.Test", "Calculator.Test\Calculator.Test.csproj", "{F1492FEB-5FFD-408A-9435-EAC6B0565EEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.ConsoleApp", "Calculator.ConsoleApp\Calculator.ConsoleApp.csproj", "{C236BF41-E684-483C-AC83-B90DA793665D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.ConsoleApp", "Calculator.ConsoleApp\Calculator.ConsoleApp.csproj", "{C236BF41-E684-483C-AC83-B90DA793665D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.WebApp", "Calculator.WebApp\Calculator.WebApp.csproj", "{DD7C376E-52FE-45BD-8C52-212CD4C81E46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C236BF41-E684-483C-AC83-B90DA793665D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C236BF41-E684-483C-AC83-B90DA793665D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C236BF41-E684-483C-AC83-B90DA793665D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7C376E-52FE-45BD-8C52-212CD4C81E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7C376E-52FE-45BD-8C52-212CD4C81E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7C376E-52FE-45BD-8C52-212CD4C81E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7C376E-52FE-45BD-8C52-212CD4C81E46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
