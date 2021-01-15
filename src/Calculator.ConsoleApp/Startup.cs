@@ -15,6 +15,7 @@ namespace Calculator.ConsoleApp
             return new ServiceCollection()
                 .AddSingleton<ICalculator, CalculatorService>()
                 .AddSingleton<IInput, InputService>()
+                .AddSingleton<IApp, App>()
                 .BuildServiceProvider();
         }
     }

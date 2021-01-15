@@ -3,7 +3,7 @@ using Calculator.Services.Interfaces;
 
 namespace Calculator.ConsoleApp
 {
-    public class App
+    public class App: IApp
     {
         private readonly ICalculator _calculatorService;
         private readonly IInput _inputService;

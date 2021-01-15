@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Calculator.Services.Interfaces;
 
 namespace Calculator.ConsoleApp
 {
@@ -8,10 +7,8 @@ namespace Calculator.ConsoleApp
         public static void Main(string[] args)
         {
             var serviceProvider = Startup.ConfigureServices();
-            var calculator = serviceProvider.GetService<ICalculator>();
-            var input = serviceProvider.GetService<IInput>();
 
-            var app = new App(calculator, input);
+            var app = serviceProvider.GetService<IApp>();
 
             app.Run();
         }
